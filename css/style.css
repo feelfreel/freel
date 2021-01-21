@@ -37,16 +37,16 @@ html, body {
 	font-family: "Cabin", sans-serif;
 	-webkit-font-smoothing: antialiased;
 	font-smoothing: antialiased;
-	text-shadow: orange 1px 1px 0, red -1px -1px 0, 
-                 orange -1px 1px 0, red 1px -1px 0;
+	text-shadow: orange 1px 1px 0, orange -1px -1px 0, 
+                 orange -1px 1px 0, orange 1px -1px 0;
 }
 h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 	color: #111111;
 	font-weight: 500;
 	font-family: "Ubuntu", serif;
-	text-shadow: black 1px 1px 0, red -1px -1px 0, 
-                 black -1px 1px 0, red 1px -1px 0;
+	text-shadow: black 1px 1px 0, black -1px -1px 0, 
+                 black -1px 1px 0, black 1px -1px 0;
 }
 h1 {
 	font-size: 70px;
