@@ -39,7 +39,7 @@ html, body {
 	font-smoothing: antialiased;
 	text-shadow: orange 1px 1px 0, orange -1px -1px 0, 
                  orange -1px 1px 0, orange 1px -1px 0;
-	background-color: #bfbdbd;
+	background-color: #d1d1d1;
 }
 h1, h2, h3, h4, h5, h6 {
 	margin: 0;
@@ -156,7 +156,7 @@ ul, ol {
 	top: 0;
 	left: 0;
 	z-index: 999999;
-	background: #bfbdbd;
+	background: #d1d1d1;
 }
 .loader {
 	width: 40px;
