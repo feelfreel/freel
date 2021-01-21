@@ -37,16 +37,16 @@ html, body {
 	font-family: "Cabin", sans-serif;
 	-webkit-font-smoothing: antialiased;
 	font-smoothing: antialiased;
-	text-shadow: red 1px 1px 0, red -1px -1px 0, 
-                 red -1px 1px 0, red 1px -1px 0;
+	text-shadow: orange 1px 1px 0, red -1px -1px 0, 
+                 orange -1px 1px 0, red 1px -1px 0;
 }
 h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 	color: #111111;
 	font-weight: 500;
 	font-family: "Ubuntu", serif;
-	text-shadow: red 1px 1px 0, red -1px -1px 0, 
-                 red -1px 1px 0, red 1px -1px 0;
+	text-shadow: black 1px 1px 0, red -1px -1px 0, 
+                 black -1px 1px 0, red 1px -1px 0;
 }
 h1 {
 	font-size: 70px;
@@ -142,7 +142,7 @@ ul, ol {
 	left: 0;
 	bottom: -5px;
 	width: 100%;
-	height: 2px;
+	height: 2	px;
 	background: #dfa974;
 	content: "";
 }
@@ -397,16 +397,18 @@ ul, ol {
 	display: inline-block;
 }
 .menu-item .nav-menu {
-	text-align: right;
+	text-align: center;
 }
 .menu-item .nav-menu .mainmenu {
 	display: inline-block;
+	
 }
 .menu-item .nav-menu .mainmenu li {
 	list-style: none;
 	display: inline-block;
 	position: relative;
 	z-index: 1;
+	
 }
 .menu-item .nav-menu .mainmenu li.active a:after {
 	opacity: 1;
@@ -425,11 +427,14 @@ ul, ol {
 	margin-right: 40px;
 	font-weight: 600;
 	display: inline-block;
-	padding: 27px 0;
+	padding: 6px 0;
 	position: relative;
 	-webkit-transition: all 0.3s;
 	-o-transition: all 0.3s;
 	transition: all 0.3s;
+    background: #fc0; /* Цвет фона */
+    border: 3px solid #fff; /* Белая рамка */
+    border-radius: 10px; /* Радиус скругления */
 }
 .menu-item .nav-menu .mainmenu li a:after {
 	position: absolute;
