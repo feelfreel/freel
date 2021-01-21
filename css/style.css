@@ -434,7 +434,7 @@ ul, ol {
 	-o-transition: all 0.3s;
 	transition: all 0.3s;
     background: #fc0; /* Цвет фона */
-    border: 3px solid #fff; /* Белая рамка */
+    
     border-radius: 10px; /* Радиус скругления */
 }
 .menu-item .nav-menu .mainmenu li a:after {
