@@ -39,7 +39,8 @@ html, body {
 	font-smoothing: antialiased;
 	text-shadow: orange 1px 1px 0, orange -1px -1px 0, 
                  orange -1px 1px 0, orange 1px -1px 0;
-	background-color: #f0f0f0;
+	/* background-color: #f0f0f0;*/
+	background-image: url(img/back_h.jpg);
 }
 h1, h2, h3, h4, h5, h6 {
 	margin: 0;
@@ -390,6 +391,8 @@ ul, ol {
 .menu-item {
 	position: relative;
 	z-index: 9;
+	background-image: url (img/back_h.jpg);
+	
 }
 .menu-item .logo {
 	padding: 25px 0;
@@ -433,7 +436,8 @@ ul, ol {
 	-webkit-transition: all 0.3s;
 	-o-transition: all 0.3s;
 	transition: all 0.3s;
-    background-color: rgba(0, 120, 201, 0.1); /* Цвет фона */
+    background-color: rgba(0, 120, 201, 0.05); /* Цвет фона */
+	background: linear-gradient(45deg, #EECFBA, #C5DDE8)
     
     border-radius: 10px; /* Радиус скругления */
 }
